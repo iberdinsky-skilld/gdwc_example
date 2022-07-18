@@ -2,7 +2,7 @@
   "name": "gdwc_example",
   "private": true,
   "dependencies": {
-    "@gdwc/components": "^3.2.0"
+    "@gdwc/components": "^3.4.0"
   },
   "devDependencies": {
     "parcel": "^2.6.2",

@@ -83,5 +83,5 @@
 
 <gdwc-card
   {{ attributes.addClass(classes) }}
-  {{ card_attributes.setAttribute('imgSrc', imageSrc).setAttribute('headline', 'Test').setAttribute('body', content.body|render|striptags|trim).setAttribute('linkHref', url) }}>
+  {{ card_attributes.setAttribute('imgSrc', imageSrc).setAttribute('headline', label|render|striptags|trim).setAttribute('body', content.body|render|striptags|trim).setAttribute('linkHref', url) }}>
 </gdwc-card>

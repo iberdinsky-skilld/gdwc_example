@@ -1,0 +1,10 @@
+# Main theme library.
+global:
+  css:
+    base:
+      https://unpkg.com/open-props: {}
+  js:
+    dist/gdwc-example.js: {}
+  dependencies:
+    - core/drupal
+

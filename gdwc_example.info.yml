@@ -1,0 +1,10 @@
+name: Generic Drupal Web Components Example
+type: theme
+base theme: olivero
+description: Example theme for Generic Drupal Web Components
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - gdwc_example/global
+

@@ -2,9 +2,10 @@
 global:
   css:
     base:
-      https://unpkg.com/open-props: {}
+      https://unpkg.com/@gdwc/components@3.6.0/dist/style.css:
+        { type: external, minified: true }
   js:
-    dist/gdwc-example.js: {}
+    https://unpkg.com/@gdwc/components@3.6.0/dist/components.umd.js:
+      { type: external }
   dependencies:
     - core/drupal
-

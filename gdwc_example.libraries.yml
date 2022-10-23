@@ -2,10 +2,9 @@
 global:
   css:
     base:
-      https://unpkg.com/@gdwc/components@3.6.0/dist/style.css:
-        { type: external, minified: true }
+      https://unpkg.com/@gdwc/components@4.0.1/dist/style.css: { type: external, minified: true }
   js:
-    https://unpkg.com/@gdwc/components@3.6.0/dist/components.umd.js:
-      { type: external }
-  dependencies:
-    - core/drupal
+    https://unpkg.com/@gdwc/components@4.0.1/dist/components.js:
+      type: external
+      attributes:
+        type: module

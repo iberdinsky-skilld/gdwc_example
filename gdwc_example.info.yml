@@ -5,6 +5,8 @@ description: Example theme for Generic Drupal Web Components
 package: Custom
 core: 8.x
 core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:decoupled_menus
 libraries:
   - gdwc_example/global
 
